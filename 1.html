@@ -1,0 +1,60 @@
+﻿
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>新标签页</title>
+		<link rel="stylesheet" href="1.css"  type="text/css"/>
+		<script src="1.js" type="text/javascript">
+		</script>
+	<script type="text/javascript">
+	showClickOtherPlace(1);
+showClickOtherZDYPlace();
+	</script>
+	</head>
+	<body  style="margin: auto;">
+				<a id="speakHref" href="http://tool.tzsgkj02.com/voice/voice2text.html"></a>
+		<form action="http://www.baidu.com/baidu" target="_blank">
+		<div>
+		<!-- 存放Google的logo -->
+		<img id="googleLogo" src="CoogleLogo.png" />
+			<div id="googleSearchDiv"   style="   width: 800px;height: 164px; border: 0px solid red;background: url(googleSearch.png) no-repeat;">
+			<input   type="text" id="baidu" name="word" size=30 style="  outline: none; border: 0px ; visibility: ;height: 42px;width: 620px;margin-left: 30px;margin-top:6px ; background-color:#F1F3F4; color:#80868B;"  value="在Coogle中搜索, 或输入网址" onclick="deletePlaceHolderText();"/>
+				
+				<!--<input id="searchInput"  type="text" value="aaa" style="height: 42px;width: 620px;margin-left: 30px;margin-top:6px ;"/>
+				-->
+			<input id="speakButton"    type="button" value="aaaaaaa" 
+		
+			class="buttonSpeaker"   style="cursor: pointer;"
+			
+			onmouseover="speakOn()" onmouseleave="speakLeave()" onclick="speakerOn()"/>
+
+				<img class="imgclass"  id="speakImg" src="speakLogo.png" style="position: absolute;  margin-left: 610px; display: none;"  />
+			
+				<input type="submit"  style="visibility: hidden;"  />
+			</div>
+		</div>
+		<!--first布局完毕-->
+		<div  id="firstdiv"  class="setDivClass"  style="position: absolute;cursor: pointer; opacity: 1;    " onmousemove="showZDY()" onmouseleave="delZDY()" onclick="showZDYYM(1)" >
+			<!--自定义此页-->
+		</div>
+			<div id="zidingyi" class="zidingyiclass" style="display:none; ">
+				<span>自定义此页</span>
+			</div>
+			<!---开始设置页面布局--->
+			<div id="ymbjdiv" style="position: relative;width: 404px; border: #E8EAED 1px solid;top: 500px;left: 1194px;display: none;">
+				<div id="div1" style="height: 50px;border: 0px solid red; ">
+					<span  style=" position: relative; top: 15px;left: 20px;">自定义此页</span>
+				</div>
+				<div id="div2" style="height: 50px;border: 0px solid red;" onmouseover="changeColor(1)" onmouseleave="changeWhite(1)">
+					<img id="ChromeBack"  src="ChromeBack.png"  style="position: relative;left:10px ;"/>
+				</div>
+				<div id="div3" style="height: 50px;border: 0px solid red;"onmouseover="changeColor(2)" onmouseleave="changeWhite(2)">
+					<img id="upPic" style="position: relative;left: 4px ;" src="upPicLogo.png"  />
+				</div>
+				<div id="div4" style="height: 110px;border: 1px solid #E8EAED;">
+					<img style="position: relative;left: 8px;" src="whiteLogo.png" />
+				</div>
+				
+			</div>
+	</body>
+</html>

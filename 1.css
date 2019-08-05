@@ -1,0 +1,47 @@
+/* ----google logo 的图片位置------ */
+#googleLogo {
+		margin-left: 650px;
+		margin-top: 150px;
+		position: absolute;
+}	
+/* ----google search 的图片位置------ */
+#googleSearch{
+	
+	margin-left: 520px;
+	margin-top: ;
+	
+}
+#googleSearchDiv{
+	position: absolute;
+	margin-left:500px ;
+	margin-top: 300px;
+}
+.baiduclass{
+	color: #80868B;
+}
+.setDivClass{
+	margin-top: 756px;
+	margin-left:1600px ;
+	width: 50px;
+	height:30px;
+	background: url(setLogo.png) ;
+	
+	background-repeat: no-repeat;
+	background-position-y: -180px;
+	background-position-x: -280px;
+	border: 0px solid yellow;
+	color: yellow;
+	}
+.buttonSpeaker{
+	opacity: 0;
+	width: 100px;
+}
+.zidingyiclass{
+	border: 1px solid yellow;
+	position: absolute;
+	margin-top: 789px;
+	margin-left:1598px ;
+	display: ;
+}
+
+
